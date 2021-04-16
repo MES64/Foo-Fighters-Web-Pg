@@ -8,125 +8,96 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>Foo Fighters</h1>
-            <button type="button">Get our Latest Album</button>
-            <br>
-            <br>
-            <!-- ToDo: Find a suitable background image -->
-            <button type="button">&#9658;</button>
+            <h1 class="band-name band-name-large">Foo Fighters</h1>
+            <div class="container">
+                <button class="btn btn-header" type="button">Get our Latest Album</button>
+            </div>
+            <button class="btn btn-header btn-play" type="button">&#9658;</button>
         </header>
-        <section>
-            <h2>TOURS</h2>
+
+        <section class="content-section container">
+            <h2 class="section-header">TOURS</h2>
             <div>
-                <div>
-                    <strong>JUN 08</strong>
-                    &lt;&gt;
-                    <span>BERLIN, DE</span>
-                    &lt;&gt;
-                    <span>WALDBUHNE</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUN 08</span>
+                    <span class="tour-item tour-city">BERLIN, DE</span>
+                    <span class="tour-item tour-arena">WALDBUHNE</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
-                <div>
-                    <strong>JUN 12</strong>
-                    &lt;&gt;
-                    <span>MILAN, IT</span>
-                    &lt;&gt;
-                    <span>I-Days</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUN 12</span>
+                    <span class="tour-item tour-city">MILAN, IT</span>
+                    <span class="tour-item tour-arena">I-Days</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
-                <div>
-                    <strong>JUN 14</strong>
-                    &lt;&gt;
-                    <span>NIMES, FR</span>
-                    &lt;&gt;
-                    <span>FESTIVAL DE NIMES</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUN 14</span>
+                    <span class="tour-item tour-city">NIMES, FR</span>
+                    <span class="tour-item tour-arena">FESTIVAL DE NIMES</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
-                <div>
-                    <strong>JUN 15</strong>
-                    &lt;&gt;
-                    <span>NIMES, FR</span>
-                    &lt;&gt;
-                    <span>FESTIVAL DE NIMES</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUN 15</span>
+                    <span class="tour-item tour-city">NIMES, FR</span>
+                    <span class="tour-item tour-arena">FESTIVAL DE NIMES</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
-                <div>
-                    <strong>JUN 17</strong>
-                    &lt;&gt;
-                    <span>VALENCIA, ES</span>
-                    &lt;&gt;
-                    <span>CIUDAD DE LAS ARTES Y LAS CIENCIAS</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUN 17</span>
+                    <span class="tour-item tour-city">VALENCIA, ES</span>
+                    <span class="tour-item tour-arena">CIUDAD DE LAS ARTES Y LAS CIENCIAS</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
-                <div>
-                    <strong>JUN 19</strong>
-                    &lt;&gt;
-                    <span>LISBON, PT</span>
-                    &lt;&gt;
-                    <span>ROCK IN RIO LISBON</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUN 19</span>
+                    <span class="tour-item tour-city">LISBON, PT</span>
+                    <span class="tour-item tour-arena">ROCK IN RIO LISBON</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
-                <div>
-                    <strong>JUL 30</strong>
-                    &lt;&gt;
-                    <span>MONTREAL, CA</span>
-                    &lt;&gt;
-                    <span>OSHEAGA FESTIVAL</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
-                    <hr>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">JUL 30</span>
+                    <span class="tour-item tour-city">MONTREAL, CA</span>
+                    <span class="tour-item tour-arena">OSHEAGA FESTIVAL</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
-                <div>
-                    <strong>SEP 03</strong>
-                    &lt;&gt;
-                    <span>MANCHESTER, TN</span>
-                    &lt;&gt;
-                    <span>BONNAROO MUSIC + ARTS FESTIVAL</span>
-                    &lt;&gt;
-                    <button type="button">BUY TCIKETS</button>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">SEP 03</span>
+                    <span class="tour-item tour-city">MANCHESTER, TN</span>
+                    <span class="tour-item tour-arena">BONNAROO MUSIC + ARTS FESTIVAL</span>
+                    <button type="button" class="btn tour-item tour-btn btn-primary">BUY TCIKETS</button>
                 </div>
             </div>
         </section>
-        <footer>
-            <h3>Foo Fighters</h3>
-            <ul>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A" target="_blank">
-                        <img src="Images/YouTube Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD" target="_blank">
-                        <img src="Images/Spotify Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/foofighters" target="_blank">
-                        <img src="Images/Facebook Logo.png">
-                    </a>
-                </li>
-            </ul>
+
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Foo Fighters</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCi2KNss4Yx73NG0JARSFe0A" target="_blank">
+                            <img src="Images/YouTube Logo White.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://open.spotify.com/artist/7jy3rLJdDQY21OgRLCZ9sD" target="_blank">
+                            <img src="Images/Spotify Logo White.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/foofighters" target="_blank">
+                            <img src="Images/Facebook Logo White.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
