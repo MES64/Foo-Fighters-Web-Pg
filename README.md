@@ -28,7 +28,7 @@ The HTML is used to construct the elements of the page and how they are put toge
 
 When an item is added to the cart a new div is created for the cart row. Its HTML contents are set to include the title, image, and price (all retrieved from the item clicked) as well as the quantity and remove button. This cart row div is appended to the cart items div, which already exists in the original HTML for the store page. Event listeners are added for the remove button and quantity input (for changing the quantity to 1 if the input is invalid and updating the cart total). The cart total is then updated. 
 
-Removing an item involves using the remove() function, which also updates the cart total. Updating the cart total is done by calling a function which takes the sum of the price multiplied by the quantity of each item in the cart. This function is called whenever the quantity of an item is changed or an item is added/removed. 
+Removing an item involves using the in-built remove() function for HTML elements, and then also updating the cart total. Updating the cart total is done by calling a function which takes the sum of the price multiplied by the quantity of each item in the cart. This function is called whenever the quantity of an item is changed or an item is added/removed. 
 
 When the purchase button is clicked, the cart is cleared by removing the first child element of the cart div until the cart div has no more child nodes. 
 
