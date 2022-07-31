@@ -2,6 +2,8 @@
 
 Mock website for the band Foo Fighters with a functioning shopping cart; HTML, CSS, JavaScript
 
+[Try It Here](https://mes64.github.io/Foo-Fighters-Web-Pg/)
+
 [Video Demo (click here)](https://www.youtube.com/watch?v=0HfuE604wps&t=1s)
 
 ![FF](https://user-images.githubusercontent.com/15747137/125119530-22c0e200-e0e9-11eb-8ed3-1931eeb4f8f2.png)
